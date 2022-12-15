@@ -14,10 +14,15 @@
         <!-- Customize your theme here. -->
     </style>
 
-<!--    Splash-->
-    <style name="TextAppearance.Rickandmorty.Light" parent="Base.V21.Theme.QualificationVK">
+<!--    My theme-->
+    <style name="TextAppearance.QualificationVK.Light" parent="Base.V21.Theme.QualificationVK">
         <item name="fontFamily">@font/roboto_light</item>
         <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_vertical|center</item>
+    </style>
+    <style name="TextAppearance.QualificationVK.Normal" parent="Base.V21.Theme.QualificationVK">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">50sp</item>
         <item name="android:gravity">center_vertical|center</item>
     </style>
 </resources>
