@@ -18,12 +18,12 @@ class SplashActivity: AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        lifecycleScope.launchWhenCreated {
-            delay(3000)
-
-            val intent = Intent(this@SplashActivity, MainActivity::class.java)
-            startActivity(intent)
-        }
+//        lifecycleScope.launchWhenCreated {
+//            delay(3000)
+//
+//            val intent = Intent(this@SplashActivity, MainActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 
 }
